@@ -55,7 +55,6 @@ class _apiFetchTaskState extends State<apiFetchTask> {
               },
             ),
           ),
-
           Expanded(
             child: Consumer<DataProvider>(
               builder: (context, dataProvider, child) {
